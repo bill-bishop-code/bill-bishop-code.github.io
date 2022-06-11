@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Bill Bishop
+title: Tales from a 35 year veteran coder
 email: bbishopski@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Best practices, and patterns from a 35 year veteran software
@@ -61,30 +61,18 @@ author:
   avatar : "/assets/images/bio-photo.jpg"
   bio    : "Observations from a 35 year veteran coder."
   links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+    - label: "Linkedin"
+      icon: "fas fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/bill-bishop-328691/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/bill-bishop-code"
 
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/bill-bishop-code"
 
 defaults:
   # _posts
@@ -112,4 +100,5 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+  
 google_site_verification: "A-Wlz0-0f-C-JdE3b6WXh3pGHhIhm4E89jdDDfbMf2o"
