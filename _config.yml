@@ -13,8 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Tales of 
-subtitle: Tales from a 35 year veteran coder
+title: Pulse
 email: bbishopski@gmail.com
 name: Bill Bishop
 description: >- # this means to ignore newlines until "baseurl:"
@@ -66,17 +65,23 @@ author:
   bio    : "Observations from a 35 year veteran coder."
   links:
     - label: "Linkedin"
-      icon: "fas fa-fw fa-linkedin"
+      icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/bill-bishop-328691/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/bill-bishop-code"
+    - label: "Email"
+      icon: "fab fa-fw fa-email"
+      url: "mailto:bbishopski@gmail.com"
 
 footer:
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/bill-bishop-code"
+    - label: "Email"
+      icon: "fab fa-fw fa-email"
+      url: "mailto:bbishopski@gmail.com"
 
 defaults:
   # _posts
