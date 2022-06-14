@@ -71,7 +71,7 @@ author:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/bill-bishop-code"
     - label: "Email"
-      icon: "fab fa-fw fa-email"
+      icon: "fab fa-fw fa-envelope"
       url: "mailto:bbishopski@gmail.com"
 
 footer:
