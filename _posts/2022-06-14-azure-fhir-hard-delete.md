@@ -9,9 +9,7 @@ tags:
   - Resource
   - Delete
 ---
-When working with Azure FHIR server I noticed that some resources (I was working with Coverage) were not deleting using the DELETE rest API.  Instead, the
-FHIR server creates a new version of the resource that is essentially empty.  For example, if there are 21 versions of a Coverage resource and you 
-delete the resource itselft, the FHIR server creates a version 22 that is empty, but the other 21 versions still exist.
+When working with [Azure FHIR server](https://github.com/microsoft/fhir-server) I noticed that some resources (I was working with Coverage) were not deleting using the DELETE rest API.  Instead, the FHIR server creates a new version of the resource that is essentially empty.  For example, if there are 21 versions of a Coverage resource and you delete the resource itselft, the FHIR server creates a version 22 that is empty, but the other 21 versions still exist.
 
 If you **really** want to delete a resource use the hardDelete parameter.
 
@@ -19,5 +17,5 @@ If you **really** want to delete a resource use the hardDelete parameter.
 
 ![Hard Delete](https://docs.microsoft.com/en-us/azure/healthcare-apis/fhir/fhir-rest-api-capabilities#conditional-delete)
 
-While you're there check out the addition API operations the Azure FHIR server provides.
+Check out the addition API operations the Azure FHIR server provides beyond FHIR Standard operations.
 
