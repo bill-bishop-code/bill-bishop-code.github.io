@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Pulse
+title: Controlled Feedback
 email: bbishopski@gmail.com
 name: Bill Bishop
 description: >- # this means to ignore newlines until "baseurl:"
@@ -61,7 +61,7 @@ plugins:
 
 author:
   name   : "Bill Bishop"
-  avatar : "/assets/images/bio-photo.jpg"
+  avatar : "/assets/images/profile_pic_small.png"
   bio    : "Observations from a 35 year veteran coder."
   links:
     - label: "Linkedin"
@@ -109,5 +109,5 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
-  
+
 google_site_verification: "A-Wlz0-0f-C-JdE3b6WXh3pGHhIhm4E89jdDDfbMf2o"
